@@ -21,16 +21,16 @@
                 <a href="<?php echo site_url('welcome') ?>"><img src="assets/img/logofix.png" id="logo" width="70px" /></a>
             </div>
             <div class="flex justify-end gap-8 m-6 mx-7">
-                <a href="#bagian0" class="hover:text-green-800 transition duration-300 ease-in">ACHIEVEMENT</a>
-                <a href="#bagian1" class="hover:text-green-800 transition duration-300 ease-in">PROMOTION</a>
+                <a href="<?php echo site_url('achievement') ?>" class="hover:text-green-800 transition duration-300 ease-in">ACHIEVEMENT</a>
+                <a href="<?php echo site_url('news') ?>" class="hover:text-green-800 transition duration-300 ease-in">NEWS</a>
                 <a href="<?php echo site_url('menu') ?>" class="hover:text-green-800 transition duration-300 ease-in">MENU</a>
-                <a href="" class="hover:text-green-800 transition duration-300 ease-in">OURSTORY</a>
+                <a href="<?php echo site_url('ourstory') ?>" class="hover:text-green-800 transition duration-300 ease-in">OURSTORY</a>
                 <a href="<?php echo site_url('feedback') ?>" class="hover:text-green-800 transition duration-300 ease-in">FEEDBACK</a>
             </div>
         </nav>
 
         <div class="">
-        <div class="bg-[#ede5db] h-[650px]">
+        <div class="bg-[#ede5db] h-[565px]">
             <h1 class="text-6xl font-bold absolute top-[200px] left-[670px]">Avocado <br> Cappucino</h1>
             <p class="text-xl absolute top-[340px] left-[670px]">A combination of avocado mixed with cappuccino which<br> is complemented by whipped cream sprinkled with selected<br>chocolate that will make you happy</p>
             <h1 class="text-2xl font-semibold absolute top-[280px] left-[990px] bg-black text-white px-2 py-1 rounded-full">30 K</h1>

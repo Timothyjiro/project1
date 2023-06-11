@@ -104,10 +104,10 @@
                 <a href="<?php echo site_url('welcome') ?>"><img src="assets/img/logofix.png" id="logo" width="70px" /></a>
             </div>
             <div class="flex justify-end gap-8 m-6 mx-7">
-                <a href="#bagian0" class="hover:text-green-800 transition duration-300 ease-in">ACHIEVEMENT</a>
-                <a href="#bagian1" class="hover:text-green-800 transition duration-300 ease-in">PROMOTION</a>
+                <a href="<?php echo site_url('achievement') ?>" class="hover:text-green-800 transition duration-300 ease-in">ACHIEVEMENT</a>
+                <a href="<?php echo site_url('news') ?>" class="hover:text-green-800 transition duration-300 ease-in">NEWS</a>
                 <a href="<?php echo site_url('menu') ?>" class="hover:text-green-800 transition duration-300 ease-in">MENU</a>
-                <a href="" class="hover:text-green-800 transition duration-300 ease-in">OURSTORY</a>
+                <a href="<?php echo site_url('ourstory') ?>" class="hover:text-green-800 transition duration-300 ease-in">OURSTORY</a>
                 <a href="<?php echo site_url('feedback') ?>" class="hover:text-green-800 transition duration-300 ease-in">FEEDBACK</a>
             </div>
         </nav>
